@@ -1,0 +1,42 @@
+:root {
+  --red: #ff7a7a;
+  --green: #38cc8c;
+  --greenPointer: #66ca9f;
+  --blue: #6055a5;
+  --bluePointer: #7c75aa;
+  --darkBlue: #3e3c49;
+  --graylishBlue: #b9b6d3;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+#app {
+  background: url("/images/bg-intro-desktop.png") no-repeat center/cover,
+    var(--red);
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.shadow {
+  box-shadow: 0px 8px 0px 0px hsla(0, 0%, 0%, 0.3);
+}
+
+.small-shadow {
+  box-shadow: 0px 4px 0px 0px hsla(0, 0%, 0%, 0.3);
+}
+
+@media (max-width: 1200px) {
+  #app {
+    height: 100%;
+    padding: 0 20px 30px 20px;
+  }
+}
