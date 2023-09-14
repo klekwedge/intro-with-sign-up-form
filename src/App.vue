@@ -1,17 +1,18 @@
 <template>
   <div class="content">
     <Input />
-    <SubmitButton/>
+    <SubmitButton />
+    <Introduction />
   </div>
 </template>
 
 <script >
 import Input from "./components/Input.vue";
 import SubmitButton from "./components/SubmitButton.vue";
-
+import Introduction from "./components/Introduction.vue";
 
 export default {
-  components: { Input, SubmitButton },
+  components: { Input, SubmitButton, Introduction },
   setup() {
     return {};
   },
