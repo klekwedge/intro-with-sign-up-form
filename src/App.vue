@@ -1,20 +1,16 @@
 <template>
   <div class="content">
-    <Input />
-    <SubmitButton />
     <Introduction />
-    <FreeTrial />
+    <FormFreeTrial />
   </div>
 </template>
 
 <script >
-import Input from "./components/Input.vue";
-import SubmitButton from "./components/SubmitButton.vue";
 import Introduction from "./components/Introduction.vue";
-import FreeTrial from "./components/FreeTrial.vue";
+import FormFreeTrial from "./components/FormFreeTrial.vue";
 
 export default {
-  components: { Input, SubmitButton, Introduction, FreeTrial },
+  components: { Introduction, FormFreeTrial },
   setup() {
     return {};
   },
