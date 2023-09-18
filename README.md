@@ -1,6 +1,6 @@
-# Example
+# Intro with sign up form
 
-**You can also read this README in [English](https://github.com/klekwedge/example/blob/main/README.EN.md).**
+**You can also read this README in [English](https://github.com/klekwedge/intro-with-sign-up-form/blob/main/README.EN.md).**
 
 ## Оглавление
 
@@ -10,14 +10,13 @@
   - [Ссылки](#ссылки)
 - [Мой процесс](#мой-процесс)
   - [Стек](#стек)
-  - [Что я узнал](#что-я-узнал)
 - [Автор](#автор)
 
 ## Инструкции по развертыванию
 
 **Для запуска проекта на вашем компьютере должны быть установлены [npm](https://nodejs.org/en/) и [git](https://git-scm.com/downloads)**
 
-1. Сделайте клон этого репозитория ```git clone https://github.com/klekwedge/example.git```
+1. Сделайте клон этого репозитория ```git clone https://github.com/klekwedge/intro-with-sign-up-form.git```
 2. Установите все необходимые пакеты npm с помощью ```npm i```
 3. Запустите проект командой ```npm run dev```
 
@@ -29,18 +28,15 @@
 
 ### Ссылки
 
-- [Ссылка на проект](https://github.com/klekwedge/example)
-- [Деплой](https://klekwedge-example.vercel.app/)
+- [Ссылка на проект](https://github.com/klekwedge/intro-with-sign-up-form)
+- [Деплой](https://klekwedge-intro-with-sign-up-form.vercel.app/)
 
 ## Мой процесс
 
 ### Стек
 
 - Vue
-- TypeScript
 - SCSS
-
-### Что я узнал
 
 ## Автор
 
